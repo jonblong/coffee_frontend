@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <h3 className='subhead'>Jon has consumed</h3>
-      <h2 className='head'>{drinks.length} Coffees</h2>
+      <h2 className='head'>{drinks.length} coffees</h2>
       <h3 className='subhead'>in 2021.</h3>
     </div>
   );
