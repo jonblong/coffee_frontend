@@ -19,3 +19,13 @@
   font-size: 128px;
   color: #e11383;
 }
+
+@media only screen and (max-width: 600px) {
+  .subhead {
+    font-size: 24px;
+  }
+
+  .head {
+    font-size: 64px;
+  }
+}
