@@ -8,13 +8,13 @@ function App() {
     fetch('https://jon-coffee-api.herokuapp.com/get_drinks')
     .then(res => res.json())
     .then((data) => {
-      setDrinks(data)
+      setDrinks(data.json_list)
     })
-  });
+  }, []);
 
   return (
     <div className="App">
-      
+      {drinks.length}
     </div>
   );
 }
