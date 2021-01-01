@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.css'
 
 function App() {
 
@@ -14,7 +15,9 @@ function App() {
 
   return (
     <div className="App">
-      {drinks.length}
+      <h3 className='subhead'>Jon has consumed</h3>
+      <h2 className='head'>{drinks.length} Coffees</h2>
+      <h3 className='subhead'>in 2021.</h3>
     </div>
   );
 }
