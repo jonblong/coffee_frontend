@@ -3,7 +3,14 @@ import './App.css'
 
 function App() {
 
+  const DATASIZES = {
+    BIG: 'big',
+    LAGRE: 'large',
+    HUGE: 'huge'
+  }
+
   const [drinks, setDrinks] = useState([]);
+  const [dataSize, setDataSize] = useState(DATASIZES.BIG)
 
   useEffect(() => {
     fetch('https://jon-coffee-api.herokuapp.com/get_drinks')
