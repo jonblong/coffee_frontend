@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 import './App.css';
 import SizePicker from './Components/SizePicker/SizePicker';
 
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+
       <SizePicker
         dataSize={dataSize}
         setDataSize={setDataSize}

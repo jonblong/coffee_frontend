@@ -1,0 +1,23 @@
+.feedItemContainer {
+  width: 300px;
+  min-height: 50px;
+  text-align: left;
+}
+
+.colored-true {
+  background-color: #e6e6e6;
+}
+
+.colored-false {
+  background-color: #ffffff;
+}
+
+.feedItemNote {
+  padding: 15px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.feedItemDate {
+  padding: 0px 15px 15px 15px;
+}
