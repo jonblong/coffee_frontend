@@ -1,0 +1,36 @@
+.sizePickerContainer {
+  background-color: #683817;
+
+  position: absolute;
+  bottom: 30px;
+
+  height: 60px;
+  width: 300px;
+
+  border-radius: 20px;
+
+  font-size: 20px;
+  color: #f5821f;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sizeList {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.sizeListItem {
+  cursor: pointer;
+}
+
+.sizeListItem:hover {
+  color: #e11383;
+}
+
+.active, .active:hover {
+  color: #ffffff;
+}
