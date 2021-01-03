@@ -10,6 +10,11 @@
   font-family: "Fredoka One";
   background-color: #f5821f;
   height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .subhead {
